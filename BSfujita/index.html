@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<title>デザイン-リクエストページ</title>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid"> <a class="navbar-brand" href="#"><img class="pc" src="images/logo.jpg" alt=""> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav"> <a class="nav-link active" aria-current="page" href="#">Home</a> <a class="nav-link" href="#">menu</a> <a class="nav-link" href="#">price</a> <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">others</a> </div>
+      </div>
+    </div>
+  </nav>
+</header>
+	
+<main>
+  <section id="slide">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-white" data-bs-pause="false" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active"> <img src="images/mormale.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>文房具ブランド　MONOTONO</h5>
+            <p>ロゴ・グッズ展開など</p>
+          </div>
+        </div>
+        <div class="carousel-item"> <img src="images/yume.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>温泉旅館　夢現</h5>
+            <p>ロゴ・ポスターなど</p>
+          </div>
+        </div>
+        <div class="carousel-item"> <img src="images/57933.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>ウイスキーブランド　BLiSS</h5>
+            <p>ロゴ・パッケージなど</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+    </div>
+  </section>
+  <section id="items">
+    <div class="container-fluid bg-dark p-5">
+      <div class="container text-white">
+        <div>
+          <h2>あなたの想像をカタチにします。</h2>
+          <p> 閲覧いただきありがとうございます。ご依頼の参考価格はこちら。(変動有り) </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card"> <img src="images/mormale.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-secondary">ロゴ制作<br>
+                  ￥5000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"> <img src="images/juice.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-secondary">パッケージデザイン<br>
+                  ￥6000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"> <img src="images/calendar_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-secondary">商品デザイン（プロダクト込み）<br>
+                  ￥8000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"> <img src="images/57933.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-secondary">ポスターデザイン<br>
+                  ￥10000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="jambo">
+    <div class="p-5 m-5">
+      <div class="container text-center p-5">
+        <h1></h1>
+        <p>
+        <h3>-注意事項-</h3>
+        <br>
+        商用利用可、二次利用相談<br>
+        ご購入にあたり、納期・お値段の希望等、ある程度の予想がある場合は先にお申し付けください。<br>
+        ※自作発言は禁止しております。<br>
+        ※イラストの加工等はご相談ください。
+        </p>
+        <button class="btn btn-danger btn-big" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> ご連絡はこちら </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">self-intoroduction</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body"> <img class="img-fluid" src="images/バッグ展開.jpg" alt="">
+            <div> account:<br>
+              創作から版権まで様々なデザインを作成します。 <br>
+              よろしくお願いいたします。<br>
+              TEL:◯◯◯-◯◯◯◯-◯◯◯◯</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+	
+<footer>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-pause="false" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <img src="images/IMG_9123.jpg" class="d-block w-100" alt="..."> </div>
+      <div class="carousel-item"> <img src="images/残暑見舞い.png" class="d-block w-100" alt="..."> </div>
+      <div class="carousel-item"> <img src="images/シンプルって.jpg" class="d-block w-100" alt="..."> </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
